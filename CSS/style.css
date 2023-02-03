@@ -1,0 +1,199 @@
+body{
+    background-color: #586037;
+}
+.inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    text-align: center;
+}
+
+.inlineBlock li:not(:nth-child(3)) {
+    margin-top: 60px;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+
+.inlineBlock.logo {
+    display: block;
+}
+
+
+nav{
+    width: 100%;
+    color: white;
+    display:inline-block;
+    vertical-align: top;
+    font-size: 24px;
+}
+
+.square{
+    width: 1104px;
+    height: 567px;
+    background-color: #B4E088;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    box-shadow: 20px 20px 10px #42482A;
+}
+
+.image{
+    height: 483px;
+    width: 386.4px;
+}
+.squiggly{
+    width: 51px;
+    height: 483px;
+}
+
+.aboutMe {
+    width: 100%; 
+    max-width: 507px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+hr{
+    width: 80%;
+    height: 3px;
+    background-color: white;
+
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+    justify-content: space-evenly;
+    column-width: auto;
+}
+
+.projects2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.square2{
+    width: 832px;
+    height: 319px;
+    background-color: #B4E088;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: auto;
+    box-shadow: 20px 20px 10px #42482A;
+
+}
+
+.contactPhotos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.image1{
+    width: 150px;
+    height:150px;
+    align-self: center;
+    margin: auto;
+}
+
+.image2{
+    width: 150px;
+    height:150px;
+    align-self: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600){
+        .logo{
+            width: 100px;
+            height: 100px;
+        }
+
+        .inlineBlock{
+            display: none;
+        }
+
+        .square{
+            width: 361px;
+            height: 1266px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            align-items: center;
+            margin: auto;
+        }
+
+        .image{
+            width: 325px;
+            height: 406.25px;
+        }
+
+        .squiggly{
+            rotate: 90deg;
+        }
+
+        .aboutMe{
+            max-width: 325px;
+        }
+        
+        .h1{
+            font-size: 50px;
+        }
+
+        .projects{
+            display: flex;
+            flex-direction: column;
+            margin-left: 64px;
+            margin-right: 64px;
+            justify-content: center;
+            justify-content: space-evenly;
+            column-gap: 30px;
+        }
+
+        .square2{
+            width: 361px;
+            height: 194px;
+        }
+
+        .contact{
+            font-size: 20px;
+        }
+
+        .image2{
+            display: none;
+            align-self: center;
+            width: 75px;
+            height: 75px;
+        }
+
+}
+    
