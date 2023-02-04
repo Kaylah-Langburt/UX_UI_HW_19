@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
 
 body{
     background-color: #586037;
@@ -26,7 +27,7 @@ nav{
     display:inline-block;
     vertical-align: top;
     font-size: 24px;
-    font-family: 'Cormorant Garamond, serif';
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .square{
@@ -45,6 +46,7 @@ nav{
     height: 483px;
     width: 386.4px;
 }
+
 .squiggly{
     width: 51px;
     height: 483px;
@@ -55,7 +57,7 @@ nav{
     max-width: 507px; 
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-    font-family: 'Cormorant Garamond, serif';
+    font-family: 'Cormorant Garamond', serif;
 }
 
 h1{
@@ -64,7 +66,7 @@ h1{
     display: flex;
     justify-content: center;
     margin: 0%;
-    font-family: 'Cormorant Garamond, serif';
+    font-family: 'Cormorant Garamond', serif;
 }
 
 hr{
@@ -98,9 +100,9 @@ hr{
     background-color: #B4E088;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 0 50px 0 50px;
     box-shadow: 20px 20px 10px #42482A;
 
 }
@@ -108,14 +110,18 @@ hr{
 .contactPhotos{
     display: flex;
     flex-direction: column;
-
+    margin-top: 45px;
+    margin-right: 20px;
+    line-height: 38px;
 }
 
 .contact{
     font-size: 40px;
     display: flex;
     flex-direction: column;
-    font-family: 'Cormorant Garamond, serif';
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 20px;
+    line-height: 48px;
 }
 
 .footer{
