@@ -13,12 +13,25 @@ body{
 
 .inlineBlock li:not(:nth-child(3)) {
     margin-top: 60px;
-    margin-right: 110px;
-    margin-left: 110px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .inlineBlock.logo {
     display: block;
+}
+
+.flower {
+    position: relative;
+}
+
+.flower img {
+    position: absolute;
+    left: -70px;
+}
+
+header.navigation {
+    height: 200px;
 }
 
 nav{
@@ -153,18 +166,19 @@ hr{
 }
 
 @media only screen and (max-width: 600px){
-        .logo{
-            width: 100px;
-            height: 100px;
+        .pages{
+            display: none;
         }
 
-        .inlineBlock{
-            display: none;
+        .flower{
+            width: 100px;
+            height: 100px;
+            margin: auto;
         }
 
         .square{
             width: 361px;
-            height: 1266px;
+            height: 1291px;
             display: flex;
             flex-direction: column-reverse;
             justify-content: space-around;
@@ -175,37 +189,74 @@ hr{
         .image{
             width: 325px;
             height: 406.25px;
+            margin-top: 30px;
         }
 
         .squiggly{
             rotate: 90deg;
+            width: 47px;
+            height: 325px;
+            margin-top: -100px;
+            margin-bottom: -130px;
         }
 
         .aboutMe{
             max-width: 325px;
         }
         
-        .h1{
+        h1{
             font-size: 50px;
+            text-align: center;
         }
+
 
         .projects{
             display: flex;
-            flex-direction: column;
-            margin-left: 64px;
-            margin-right: 64px;
+            flex-direction: row;
             justify-content: center;
             justify-content: space-evenly;
-            column-gap: 30px;
+            row-gap: 30px;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+        }
+
+        .projects2{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+
+        .footer{
+            flex-direction: column;
         }
 
         .square2{
             width: 361px;
             height: 194px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
         }
 
         .contact{
             font-size: 20px;
+            margin: auto;
+            line-height: 28px;
+        }
+
+        .contactPhotos{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 170px;
+            margin-left: 60px;
+            line-height: 18px;
+            height: 45px;
+            width:45px;
         }
 
         .image2{
@@ -213,6 +264,7 @@ hr{
             align-self: center;
             width: 75px;
             height: 75px;
+            margin: auto;
         }
 
 }
