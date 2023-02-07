@@ -30,6 +30,15 @@ nav{
     font-family: 'Cormorant Garamond', serif;
 }
 
+.inlineBlock{
+    text-decoration: none;
+    color: white;
+}
+
+.inlineBlock:hover{
+    color: #C6B4DD;
+    transition: 0.5s ease all;
+}
 .square{
     width: 1104px;
     height: 567px;
