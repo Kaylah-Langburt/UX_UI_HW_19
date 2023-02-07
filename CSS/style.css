@@ -269,17 +269,3 @@ hr{
 
 }
     
-/* Jonathan Edits */
-
-.flower {
-    position: relative;
-}
-
-.flower img {
-    position: absolute;
-    left: -70px;
-}
-
-header.navigation {
-    height: 200px;
-}
